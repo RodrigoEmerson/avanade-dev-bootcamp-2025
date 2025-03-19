@@ -32,13 +32,10 @@ classDiagram
         +double promotionalPrice
     }
 
-    class News {
-        +String icon
-        +String description
-    }
+    
 
     Product "1" -- "1..*" Feature : contains
     Product "1" -- "1" Supplier : has
     Product "1" -- "0..1" Promotion : offers
-    Product "1" -- "0..*" News : has
+   
 
