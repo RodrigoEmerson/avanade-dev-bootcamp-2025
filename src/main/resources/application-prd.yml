@@ -1,12 +1,12 @@
-spring:
-  datasource:
-    url: jdbc:postgresql://postgres:hURCBhPGmEbhQKxOPutTAcAxZXrwgmAC@shinkansen.proxy.rlwy.net:45774/railway
-    username: postgres
-    password: hURCBhPGmEbhQKxOPutTAcAxZXrwgmAC
-  jpa:
-    open-in-view: false
-    hibernate:
-      ddl-auto: create
+# spring:
+#   datasource:
+#     url: jdbc:postgresql://postgres:hURCBhPGmEbhQKxOPutTAcAxZXrwgmAC@shinkansen.proxy.rlwy.net:45774/railway
+#     username: postgres
+#     password: hURCBhPGmEbhQKxOPutTAcAxZXrwgmAC
+#   jpa:
+#     open-in-view: false
+#     hibernate:
+#       ddl-auto: create
 
 #  spring.datasource.url=jdbc:postgresql://postgres:hURCBhPGmEbhQKxOPutTAcAxZXrwgmAC@shinkansen.proxy.rlwy.net:45774/railway
 #  spring.datasource.username=postgres
