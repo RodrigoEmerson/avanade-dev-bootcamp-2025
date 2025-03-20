@@ -1,11 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${PGHOST}:${PGHOST}:/${PGDATABASE}
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: create
 
-spring.datasource.url=jdbc:postgresql://postgres:hURCBhPGmEbhQKxOPutTAcAxZXrwgmAC@shinkansen.proxy.rlwy.net:45774/railway
-spring.datasource.username=postgres
-spring.datasource.password=hURCBhPGmEbhQKxOPutTAcAxZXrwgmAC
-spring.datasource.driver-class-name=org.postgresql.Driver
-spring.jpa.hibernate.ddl-auto=create
 
 
 
+#spring.datasource.url=jdbc:postgresql://postgres:hURCBhPGmEbhQKxOPutTAcAxZXrwgmAC@postgres.railway.internal:5432/railway
+#spring.datasource.driver-class-name=org.postgresql.Driver
+#spring.jpa.hibernate.ddl-auto=create
+
+
+#spring.datasource.username=postgres
+#spring.datasource.password=hURCBhPGmEbhQKxOPutTAcAxZXrwgmAC
 #postgresql://postgres:hURCBhPGmEbhQKxOPutTAcAxZXrwgmAC@shinkansen.proxy.rlwy.net:45774/railway
 #postgresql://postgres:hURCBhPGmEbhQKxOPutTAcAxZXrwgmAC@postgres.railway.internal:5432/railway
