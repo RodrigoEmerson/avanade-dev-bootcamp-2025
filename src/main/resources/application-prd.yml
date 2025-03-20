@@ -1,3 +1,4 @@
+
 spring.datasource.url=jdbc:postgresql://postgres:hURCBhPGmEbhQKxOPutTAcAxZXrwgmAC@shinkansen.proxy.rlwy.net:45774/railway
 spring.datasource.username=postgres
 spring.datasource.password=hURCBhPGmEbhQKxOPutTAcAxZXrwgmAC
