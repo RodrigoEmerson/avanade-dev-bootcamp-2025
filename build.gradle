@@ -23,7 +23,6 @@ dependencies {
 	// OpenAPI (Swagger) https://github.com/springdoc/springdoc-openapi
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.5'
 
-
 	runtimeOnly 'com.h2database:h2'
 	runtimeOnly 'org.postgresql:postgresql'
 
@@ -33,7 +32,7 @@ dependencies {
 
 tasks.jar {
 	manifest {
-		attributes["Main-Class"] = "src/main/java/me/dio/AvanadeDevBootcamp2025Application.java"
+		attributes["Main-Class"] = "me.dio.AvanadeDevBootcamp2025Application"
 	}
 }
 
