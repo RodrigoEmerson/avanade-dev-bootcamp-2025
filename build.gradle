@@ -27,7 +27,7 @@ dependencies {
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.5'
 
 	// Driver do PostgreSQL
-	implementation 'org.postgresql:postgresql:42.6.0'
+	implementation 'org.postgresql:postgresql:42.7.2'
 
 	// Validação do Hibernate (necessário para evitar erro de NoProviderFoundException)
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
@@ -36,6 +36,7 @@ dependencies {
 
 	runtimeOnly 'com.h2database:h2'
 	runtimeOnly 'org.postgresql:postgresql'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
